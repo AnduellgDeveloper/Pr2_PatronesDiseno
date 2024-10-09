@@ -1,9 +1,9 @@
-package co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.CelularesEjemplo;
+package co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.DispositivosMoviles_Ejemplo;
 
-import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.CelularesEjemplo.services.IBateria;
-import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.CelularesEjemplo.services.IProcesador;
-import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.CelularesEjemplo.services.ISistemaOperativo;
-import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.CelularesEjemplo.services.ITelefono;
+import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.DispositivosMoviles_Ejemplo.services.IBateria;
+import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.DispositivosMoviles_Ejemplo.services.IProcesador;
+import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.DispositivosMoviles_Ejemplo.services.ISistemaOperativo;
+import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.DispositivosMoviles_Ejemplo.services.ITelefono;
 
 public class TelefonoGamaAlta implements ITelefono {
     private ISistemaOperativo sistemaOperativo;
