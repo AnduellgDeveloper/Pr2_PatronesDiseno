@@ -35,6 +35,8 @@ public class Main {
         castillo3.crearDecoracionOrnamental();
         castillo3.crearPatioInterior();
         castillo3.crearDecoracionOrnamental();
+
+
     }
 
 
