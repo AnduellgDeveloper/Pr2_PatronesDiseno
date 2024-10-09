@@ -6,5 +6,16 @@ public class TarjetaCreditoGold extends TarjetaCreditoB implements IPrototipo {
     public TarjetaCreditoGold(String nombreTitular, int cvv, String numeroTarjeta) {
         super(nombreTitular, cvv, numeroTarjeta);
     }
+    @Override
+    public IPrototipo clonar() {
+        return new TarjetaCreditoGold(nombreTitular,cvv,numeroTarjeta) ;
+
+
+    }
+    @Override
+    public String toString() {
+        return "Tarjeta Gold: " + super.toString();
+    }
+
 
 }
