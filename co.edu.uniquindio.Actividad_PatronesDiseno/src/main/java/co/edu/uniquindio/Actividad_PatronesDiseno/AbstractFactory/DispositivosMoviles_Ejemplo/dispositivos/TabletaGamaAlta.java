@@ -1,4 +1,4 @@
-package co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.DispositivosMoviles_Ejemplo;
+package co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.DispositivosMoviles_Ejemplo.dispositivos;
 
 import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.DispositivosMoviles_Ejemplo.services.IBateria;
 import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.DispositivosMoviles_Ejemplo.services.IProcesador;
@@ -15,10 +15,9 @@ public class TabletaGamaAlta implements ITableta {
         this.procesador = procesador;
         this.bateria = bateria;
     }
-
     @Override
     public void especificarTableta() {
-        System.out.println("Tableta de alta gama:");
+        System.out.println("Tableta de gama alta:");
         sistemaOperativo.especificarSO();
         procesador.especificarProcesador();
         bateria.especificarBateria();

@@ -1,4 +1,4 @@
-package co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.DispositivosMoviles_Ejemplo;
+package co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.DispositivosMoviles_Ejemplo.dispositivos;
 
 import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.DispositivosMoviles_Ejemplo.services.IBateria;
 import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.DispositivosMoviles_Ejemplo.services.IProcesador;
@@ -18,7 +18,7 @@ public class TelefonoGamaAlta implements ITelefono {
 
     @Override
     public void especificarTelefono() {
-        System.out.println("Telefono de alta gama");
+        System.out.println("Telefono de gama alta");
         sistemaOperativo.especificarSO();
         procesador.especificarProcesador();
         bateria.especificarBateria();
