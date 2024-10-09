@@ -1,6 +1,4 @@
-package co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.Model;
-
-import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.ICastilloFactory;
+package co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.CastilloEjemplo.Model;
 
 public class CastilloGotico implements ICastilloFactory {
 

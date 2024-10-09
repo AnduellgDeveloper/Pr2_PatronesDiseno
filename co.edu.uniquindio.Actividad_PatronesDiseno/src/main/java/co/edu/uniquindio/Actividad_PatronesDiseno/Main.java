@@ -1,9 +1,8 @@
 package co.edu.uniquindio.Actividad_PatronesDiseno;
 
-import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.ICastilloFactory;
-import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.Model.CastilloGotico;
-import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.Model.CastilloMedieval;
-import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.Model.CastilloRenacientista;
+import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.CastilloEjemplo.Model.CastilloGotico;
+import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.CastilloEjemplo.Model.CastilloMedieval;
+import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.CastilloEjemplo.Model.CastilloRenacientista;
 
 public class Main {
     public static void main(String[] args) {
