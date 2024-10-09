@@ -3,6 +3,7 @@ package co.edu.uniquindio.Actividad_PatronesDiseno;
 import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.CastilloEjemplo.Model.CastilloGotico;
 import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.CastilloEjemplo.Model.CastilloMedieval;
 import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.CastilloEjemplo.Model.CastilloRenacientista;
+import co.edu.uniquindio.Actividad_PatronesDiseno.Prototype.TarjetaCreditoB;
 
 public class Main {
     public static void main(String[] args) {
@@ -35,6 +36,10 @@ public class Main {
         castillo3.crearDecoracionOrnamental();
         castillo3.crearPatioInterior();
         castillo3.crearDecoracionOrnamental();
+        System.out.println(" \n Prototype");
+        TarjetaCreditoB tarjeta = new TarjetaCreditoB("Andrea V Martinez",234,"12345678901");
+        
+
 
 
     }
