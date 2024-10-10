@@ -1,4 +1,4 @@
-package co.edu.uniquindio.Actividad_PatronesDiseno.Prototype;
+package co.edu.uniquindio.Actividad_PatronesDiseno.Prototype.Tarjetas;
 
 import co.edu.uniquindio.Actividad_PatronesDiseno.Prototype.Services.IPrototipo;
 

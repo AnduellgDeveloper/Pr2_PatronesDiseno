@@ -1,0 +1,4 @@
+Una empresa de tecnología móvil necesita automatizar la creación de dispositivos mediante
+una división de gamas, como lo son gama alta y gama baja por el momento. Para cada gama,
+necesita segmentar el hardware y el software, de manera que, dependiendo de la capacidad
+del hardware y el software, se ensamblen de forma correspondiente los dispositivos móviles.

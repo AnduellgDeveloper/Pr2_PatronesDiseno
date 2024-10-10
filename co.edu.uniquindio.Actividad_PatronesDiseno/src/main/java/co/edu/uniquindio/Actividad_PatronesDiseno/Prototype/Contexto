@@ -1,0 +1,5 @@
+Un banco reconocido de la ciudad decidió sacar dos tipos de tarjeta de crédito.
+Ellos ya tenían una tarjeta de crédito en el mercado, que era la tarjeta de crédito básica.
+Para esto, decidieron crear una tarjeta Gold y una Black, pero no querían contratar un nuevo
+algoritmo que creara estas dos tarjetas adicionales. Por ende, el ingeniero que tenían les
+propuso utilizar el patrón Prototype y así solucionar su problemática
