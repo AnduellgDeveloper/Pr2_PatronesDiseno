@@ -1,0 +1,6 @@
+Una fábrica de lácteos necesita automatizar la producción de productos como
+leche, yogur, mantequilla y queso, y también debe poder agregar fácilmente nuevos
+productos en el futuro (como helados o cremas). Cada tipo de producto tiene un proceso
+específico (pasteurización, fermentación, maduración, etc.), lo que hace que el código
+de producción sea distinto para cada uno, pero debe evitar la duplicación de código y facilitar
+la extensión del sistema.
