@@ -1,10 +1,10 @@
-package co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.DispositivosMoviles_Ejemplo;
+package co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory;
 
-import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.DispositivosMoviles_Ejemplo.factorys.FabricaGamaAlta;
-import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.DispositivosMoviles_Ejemplo.factorys.FabricaGamaBaja;
-import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.DispositivosMoviles_Ejemplo.services.IDispositivoFactory;
-import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.DispositivosMoviles_Ejemplo.services.ITableta;
-import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.DispositivosMoviles_Ejemplo.services.ITelefono;
+import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.factorys.FabricaGamaAlta;
+import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.factorys.FabricaGamaBaja;
+import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.services.IDispositivoFactory;
+import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.services.ITableta;
+import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.services.ITelefono;
 
 public class EmpresaMoviles {
     public static void main(String[] args) {

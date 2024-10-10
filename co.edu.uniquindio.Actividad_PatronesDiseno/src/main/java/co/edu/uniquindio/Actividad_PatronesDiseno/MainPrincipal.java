@@ -1,7 +1,7 @@
 package co.edu.uniquindio.Actividad_PatronesDiseno;
 
 
-import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.DispositivosMoviles_Ejemplo.EmpresaMoviles;
+import co.edu.uniquindio.Actividad_PatronesDiseno.AbstractFactory.EmpresaMoviles;
 import co.edu.uniquindio.Actividad_PatronesDiseno.FactoryMethod.EmpresaLacteos;
 import co.edu.uniquindio.Actividad_PatronesDiseno.Prototype.AdministradorPrototype;
 
